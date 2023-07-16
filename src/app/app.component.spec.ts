@@ -15,7 +15,7 @@ describe('AppComponent', () => {
   it(`should have as title 'angular-Bowens_Task_Tracker'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-Bowens_Task_Tracker');
+    expect(app['title']).toEqual('angular-Bowens_Task_Tracker');
   });
 
   it('should render title', () => {
